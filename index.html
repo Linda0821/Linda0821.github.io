@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>我的主页</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]<script src="assets/js/ie/html5shiv.js"></script>[endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]<link rel="stylesheet" href="assets/css/ie8.css" />[endif]-->
+		<!--[if lte IE 9]<link rel="stylesheet" href="assets/css/ie9.css" />[endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Linda0821-前端</h1>
+						<p> Independent Developer &nbsp;&bull;&nbsp; Dream, as if you never wake up.</p>
+						<nav>
+							<ul>
+								<li>
+									<a href="https://github.com/Linda0821" class="icon fa-github">
+										我的GitHub >
+										<span class="label"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://linda0821.github.io/resume" class="icon fa-envelope-o">
+										简历 >
+										<span class="label"></span>
+									</a>
+								</li>
+								<li>
+									<a href="https://linda0821.github.io/site-nav" class="icon fa-envelope-o">
+										前端网址 >
+										<span class="label"></span>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:linda709sj@163.com" class="icon fa-envelope-o">
+										我的邮箱 >
+										<span class="label"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; 2018-2019</span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
